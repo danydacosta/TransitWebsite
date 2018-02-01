@@ -24,7 +24,7 @@ body:after {
   bottom: 0;
   right: 0;
   opacity: 0.83;
-  background: linear-gradient(#7F1916 0%, #BF2621 100%);
+  background-image: url("img/back.png");
 }
 
 div.container > * {
