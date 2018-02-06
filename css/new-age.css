@@ -130,7 +130,6 @@ section h2 {
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
-    background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #222222;
@@ -154,9 +153,8 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"),  #527de7;
+  background: url("../img/bg-pattern.png"), linear-gradient(500deg, #527de7, #d470e7 160%);
 }
 
 header.masthead .header-content {
@@ -204,7 +202,7 @@ section.download {
 }
 
 section.download h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 0;
 }
 
@@ -230,7 +228,7 @@ section.download .badges .badge-link img {
 
 @media (min-width: 768px) {
   section.download h2 {
-    font-size: 70px;
+    font-size: 40px;
   }
 }
 
